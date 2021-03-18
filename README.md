@@ -15,15 +15,15 @@ Les millores d'una optimització no només afecten al codi, podem fer millores q
   
 Alguns dels típics casos on el codi fan pudor i s'ha d'optimitzar:  
 - **Mètodes o atributs amb noms no significatius**  
-  - És més sencill de seguir un codi on es veu clarament cada cosa a que fa referència. Especialment quant pasa molt de temps i s'ha de revisar el codi, i quant es treballa en equip.
+  És més sencill de seguir un codi on es veu clarament cada cosa a que fa referència. Especialment quant pasa molt de temps i s'ha de revisar el codi, i quant es treballa en equip.
 - **Varis mètodes fent la mateixa tasca**  
-  - Hem d'evitar la repetició de codi, o fer la mateixa tasca amb codi semblant. Quan això succeeix es millor escriure un mètode genèric i que s'invoqui segons diferents necessitats amb diferents arguments.  
+  Hem d'evitar la repetició de codi, o fer la mateixa tasca amb codi semblant. Quan això succeeix es millor escriure un mètode genèric i que s'invoqui segons diferents necessitats amb diferents arguments.  
 - **Mètodes amb més paràmetres dels necessaris**  
-  - Es molt important que cada mètode faci una tasca molt concreta. Si un mètode necessita molts arguments per funcionar sol ser síntoma de que potser no estem modularitzant correctament la tasca que aquest ha de resoldre.
+  Es molt important que cada mètode faci una tasca molt concreta. Si un mètode necessita molts arguments per funcionar sol ser síntoma de que potser no estem modularitzant correctament la tasca que aquest ha de resoldre.
 - **Codi innecesari**  
-  - El codi que fa cap aportació a la funcionalitat s'ha d'eliminar. Només fa que despistar-nos i fer més confús l'enteniment de l'algoritme que usa, a més de emportar-se temps de processament i capacitat de recursos.
+  El codi que fa cap aportació a la funcionalitat s'ha d'eliminar. Només fa que despistar-nos i fer més confús l'enteniment de l'algoritme que usa, a més de emportar-se temps de processament i capacitat de recursos.
 - **Ús de nombres o valors màgics en expresions**  
-  - Usar constants directament en lloc d'utilitzar un nom de constant. S'ha d'evitar utilitzar aquests "números màgics" de tal manera que sigui fàcil d'entendre d'on venen els càlculs a les diferents expressions del codi.  
+  Usar constants directament en lloc d'utilitzar un nom de constant. S'ha d'evitar utilitzar aquests "números màgics" de tal manera que sigui fàcil d'entendre d'on venen els càlculs a les diferents expressions del codi.  
 ***  
 
 # Anàlisi del Codi  
@@ -63,7 +63,7 @@ Hi ha tres tipus de documentació:
 ![jpg eines-control-versions](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF2_2/main/git-sites.png)
 Una aplicació, conforme va avançant el temps, a través de diferents revisions pot arrivar a no ser compatible amb alguns dels seus estats anteriors, el que es coneix com a versió. Per això és molt important que portem un control de quina versió de l'aplicació estem desenvolupant, deixant ben clar quines parts es comporten diferent, que noves coses es poden fer ara, etc.  
   
-Hi ha una sèrie de sistemes per que puguem portar un control de les versions que anem realitzant dels nostres programes.  
+Hi ha una sèrie de sistemes per ajudar-nos a portar un control de les versions dels nostres programes.  
   
 Els més coneguts: *CVS*, *Subversion*, *Mercurial*, *Git* (un dels més populars actualment).  
 
